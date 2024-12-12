@@ -70,7 +70,7 @@ Content-Type: multipart/form-data
 {
   "model": "Keras (.h5)",
   "description": "Model ini digunakan untuk mengklasifikasikan jenis sampah berdasarkan gambar.",
-  "input_size": "224x224 pixels",
+  "input_size": "128x128 pixels",
   "output_classes": ["Kaca", "Logam", "Kertas", "Residu", "Kardus", "Plastik"]
 }
 ```
