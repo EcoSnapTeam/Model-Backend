@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ecosnap-443312",
+  "private_key_id": "e0b010d3dbb89a19796b0aeed2920cc8f183571e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCG8jGtkXTigV71\n+QY4CC5Vq0ZWR1qtvpGGXKUfPDB1wkEVtxYIA32wtuuX39//B+nLb2QzA8pjTiWi\nFGrC7IX8AsPP7DECV0vy8epGBM+XDSlqMBkxCP07AVS/NILwmlU2vfCyNhpVhlcl\nP91hb+y3HxIaO9YtMugbfr+4fUSrqAdY3ntJzzggUBO6pgLsZ1cVhRGzd+b2MbUW\nwqePtYBT5K1N2kelwQYkjI9WnMSMic+hK0wGdMt72buZRuhPTYTZ+MF7lNdUJdxR\nElCHtEydXWgIghabDyAR5gKtAE987jnVhSEYhEzoICRgJdcZt+TMVCXmeuR4xNBH\nZGzeW7S5AgMBAAECggEAA81QfpUyg6cKYa2AwiTNMmXLQJHNgXI/snc110UTEUmg\nxg+kx83FCteCgy1Kx9+QE/FeiOHr1TkDI4Iwq68t4LbED9MAoqdf6PdtfB11Vapd\nzvjjMs/v0OEQbfvY+cCtaIe436Uu1YHzFAYiPX/W6GYQP2E4H0lNLmjM1nIKvzfS\noPPHy5bkTz10Eb/iTgpU1FPWiJUwCnw5GTmqOnyT4/hz7rUzR9ZNg/1eeyKcYfQW\n905mFiB2cRbQYj42JFgT3HxhYhoN3PrfwRLvBYUuJN0NYpujMeMXQ5jHboBNzOZf\n7CyySy94UStAdQg8IBIn8+9nDSk1ZqcZhMqJ1iIWIQKBgQC6flykSc1QY8GQ+ygN\nSQDi9r9YUgEPbey2hQbtvqOw42CYdrjaJ9GGxXREqk1WiETTt7OsTEkGlmoW9mYm\n8ZWYk7JE7z4q7WgWh5rRaYaqI8KC71FJBrb9Zb7iOS06HO91eK2FZ9xFIPhxl6iq\n76EzvxhTU+RDewD/OjtI4JW7YQKBgQC5PZqYCIl3doc5RH4Yre+CbjQfB3cdFZvw\n+8s/slooskK2dxb8HFvy782SkKlEugAri3ZhJLHRDhe0za68+sQCK+NRC59Me+XW\nSvUH8sidnFNQgIR/AuD9lo8SLfM39iI6CRiuxpbNtRZQ1RcpLQNdZXo20JhvKBAO\n+JNjOUeQWQKBgEwQ/GJ6Q8c1WR90gcqhaz4n3LX+hLYxZOqxabkRGB0vMRge3JkG\nwryQzzKur+rKnCAq/psZZnPMaCtDhzj9MsJQA9eAKcBCo0EFQI2H2EiPW2giiuoZ\nVgwXMvt8zMi2QqmMdmJCkaKUpyFV9ZL7OKotmJNsVV98zVRNAR9hk1EhAoGADjKR\nibuFxbk47gO44m1aYRXPOt2YnIsOc67oyg4CaQIYqOGBynrl9T259NTPlGvpHW1H\n+nQUiOBaosns7aEOqtfwSULpx7PrTrxaAWzzQVk87XucLBvtYKJMfuk0rgJYZzhR\nQvwHjOanOjTK3KYNjvf7IP5l4Icii/MzYLSALqkCgYAYSHHAAEFJAEmxNCQkoSwP\nYtT1wh8uwQMfnncWVRUbu3LYf+rbn4egscxpOODy0SNeMyW2o3l23qhdu6tQzRyV\npDe6fxuRDxJNjy/6K2JhSkLuRYtVYVoJe8iJTSSgt6hYhGhaB0uEZel3mDFJidXT\ntvP1rLR0HfhGu5jizZuqmg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ecosnap-api@ecosnap-443312.iam.gserviceaccount.com",
+  "client_id": "109560607058554135475",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ecosnap-api%40ecosnap-443312.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
