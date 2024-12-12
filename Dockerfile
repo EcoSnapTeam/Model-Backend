@@ -1,24 +1,26 @@
-# Gunakan image dasar yang sudah ada, berbasis Python 3.10
-FROM python:3.10-slim
+# Menggunakan image Python 3.9 sebagai base image
+FROM python:3.9-slim
 
-# Set working directory
+# Set working directory di dalam container
 WORKDIR /app
 
-# Menyalin requirements.txt ke dalam image
+# Menyalin requirements.txt ke dalam container
 COPY requirements.txt .
 
-# Install dependensi yang ada di requirements.txt
+# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Menyalin seluruh kode aplikasi ke dalam image
+# Menyalin seluruh file aplikasi ke dalam container
 COPY . .
 
-# Set environment variable untuk Flask
-ENV FLASK_APP=app.py
-ENV FLASK_RUN_HOST=0.0.0.0
+# Salin file key.json ke dalam container
+COPY key.json /app/key.json
 
-# Port yang akan digunakan
+# Set variabel lingkungan untuk Google Application Credentials
+ENV GOOGLE_APPLICATION_CREDENTIALS="/app/key.json"
+
+# Expose port 8080 (default untuk Cloud Run)
 EXPOSE 8080
 
-# Menjalankan aplikasi Flask
-CMD ["flask", "run"]
+# Menjalankan aplikasi Flask menggunakan Gunicorn
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"]
