@@ -1,6 +1,9 @@
 Flask
 numpy
 Pillow
-google-cloud-storage
 tensorflow
+google-cloud-storage
+google-cloud-firestore
 keras
+requests
+gunicorn
